@@ -9,4 +9,5 @@
 
 * 对象相关函数
     * [keys values pairs](object/keys_values_pairs.md)
+    * [invert](object/invert.md)
 * 其他实用方法
