@@ -24,7 +24,7 @@ getLength函数underscore内部使用的一个方法，用于返回一个对象�
 
 偏函数是相对于原函数而言的，偏的意思是部分，原函数的部分参数或者变量被预置形成的新函数就是偏函数。underscore.js中提供了```_.partial```方法，它相当于一个偏函数工厂，原料是原函数，生成偏函数。看下代码：
 
-```
+```javascript
 var executeBound = function(sourceFunc, boundFunc, context, callingContext, args) {
     if (!(callingContext instanceof boundFunc)) return sourceFunc.apply(context, args);
     var self = baseCreate(sourceFunc.prototype);

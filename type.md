@@ -52,3 +52,15 @@ _.isNaN = function(obj) {
 ```
 
 对于```Infinity```并不是判断是否是无穷，而是判断是否是有穷，但我对underscore的判断标准不是很满意，我更倾向于es6提供的```Number.isFinite```，它的判断标准是是数值类型且是有穷的，underscore方案对于数字字符串"123"也是判断为有穷。
+
+## undefined
+
+underscore为判断是否是undefined特意编写了一个方法：
+
+```javascript
+_.isUndefined = function(obj) {
+    return obj === void 0;
+};
+```
+
+这里判断是否与```void 0```相等而不是 是否与```undefined```相等是有原因的，underscore考虑到了undefined可能被修改的情况，而void运算返回真undefined。
