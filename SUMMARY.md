@@ -4,6 +4,7 @@
 * 函数相关方法
     * [memoize](function/memoize.md)
 * 集合相关函数
+    * [iteratee](collections/iteratee.md)
     * [shuffle](collections/shuffle.md)
 * 数组相关函数
 
