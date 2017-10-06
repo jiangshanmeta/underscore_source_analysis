@@ -5,7 +5,11 @@
     * [memoize](function/memoize.md)
 * 集合相关函数
     * [iteratee](collections/iteratee.md)
+    * [遍历映射规约](collections/each.md)
+    * [筛选](collections/filter.md)
+    * [聚合](collections/aggregate.md)
     * [shuffle](collections/shuffle.md)
+    * [拾遗](collections/dopant.md)
 * 数组相关函数
 
 * 对象相关函数
