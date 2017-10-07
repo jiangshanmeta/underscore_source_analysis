@@ -2,7 +2,7 @@
 
 ```javascript
 _.shuffle = function(obj) {
-    // 保证是针对数组乱序
+    // 对象也转成数组处理，所以我将这个方法放到了数组而不是集合
     var set = isArrayLike(obj) ? obj : _.values(obj);
     var length = set.length;
 
