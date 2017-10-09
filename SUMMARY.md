@@ -13,5 +13,7 @@
 * 对象相关函数
     * [keys values pairs](object/keys_values_pairs.md)
     * [invert](object/invert.md)
+    * [assign](object/assign.md)
+    * [create](object/create.md)
 * 工具方法
     * [类型判断](utility/type.md)
