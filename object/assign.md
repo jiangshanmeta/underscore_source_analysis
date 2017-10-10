@@ -32,4 +32,13 @@ _.defaults = createAssigner(_.allKeys, true);
 
 其实见多了underscore类似的代码，再结合上面提到的polyfill，理解这些代码没什么太大的难度。
 
-这几个方法还有一个共同点是都是浅复制，underscore没有提供深复制的方法。如果想要了解深复制可以看下jQuery的```$.extend```或者lodash的```cloneDeep```，基本思路是类型判断引用类型递归拷贝。
+在underscore内部还有一个相关方法clone：
+
+```javascript
+_.clone = function(obj) {
+    if (!_.isObject(obj)) return obj;
+    return _.isArray(obj) ? obj.slice() : _.extend({}, obj);
+};
+```
+
+它的作用是实现了浅复制(针对数组和对象)，underscore没有提供深复制的方法。如果想要了解深复制可以看下jQuery的```$.extend```或者lodash的```cloneDeep```，基本思路是类型判断引用类型递归拷贝。
