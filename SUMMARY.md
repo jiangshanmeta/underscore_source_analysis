@@ -15,5 +15,6 @@
     * [invert](object/invert.md)
     * [assign](object/assign.md)
     * [create](object/create.md)
+    * [拾遗](object/dopant.md)
 * 工具方法
     * [类型判断](utility/type.md)
