@@ -2,6 +2,7 @@
 * [预备知识](bootstrap.md)
 * 函数相关方法
     * [memoize](function/memoize.md)
+    * [bind](function/bind.md)
 * 集合相关函数
     * [iteratee](collections/iteratee.md)
     * [遍历映射规约](collections/each.md)
