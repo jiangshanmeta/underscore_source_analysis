@@ -15,6 +15,7 @@
 * 数组相关函数
     * [shuffle](array/shuffle.md)
     * [二分查找](array/sortedIndex.md)
+    * [indexOf](array/indexOf.md)
 * 对象相关函数
     * [keys values pairs](object/keys_values_pairs.md)
     * [invert](object/invert.md)
