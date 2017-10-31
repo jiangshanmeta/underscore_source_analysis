@@ -5,7 +5,7 @@
     * [bind](function/bind.md)
     * [debounce](function/debounce.md)
     * [throttle](function/throttle.md)
-    * [dopant](function/dopant.md)
+    * [拾遗](function/dopant.md)
 * 集合相关函数
     * [iteratee](collections/iteratee.md)
     * [遍历映射规约](collections/each.md)
@@ -19,6 +19,7 @@
     * [数组去重](array/unique.md)
     * [数组展开](array/flatten.md)
     * [并集交集差集](array/set.md)
+    * [拾遗](array/dopant.md)
 * 对象相关函数
     * [keys values pairs](object/keys_values_pairs.md)
     * [invert](object/invert.md)
@@ -27,3 +28,5 @@
     * [拾遗](object/dopant.md)
 * 工具方法
     * [类型判断](utility/type.md)
+    * [template](utility/template.md)
+* [mixin](mixin.js)
