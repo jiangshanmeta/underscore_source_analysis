@@ -32,4 +32,4 @@ _.bind = function(func, context) {
 };
 ```
 
-和MDN上bind方法的polyfill一比较，我们其实可以发现MDN上提供的方案有点小问题，就是如果我们使用new关键字调用时，函数可能是返回的不是一个对象类型(比如构造函数没有返回值则默认返回undefined)，underscore对此作了处理。不过通常使用场景下不会对bind返回的函数调用new关键字。
+和MDN上bind方法的polyfill一比较，<del>我们其实可以发现MDN上提供的方案有点小问题，就是如果我们使用new关键字调用时，函数可能是返回的不是一个对象类型(比如构造函数没有返回值则默认返回undefined)，underscore对此作了处理。</del>MDN提供的方案之所以没有对返回结果的类型做判断，是因为new操作会做这件事，underscore判断返回的是否是对象是对这个操作的一个模拟。
